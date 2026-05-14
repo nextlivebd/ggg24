@@ -11,9 +11,9 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Basic SEO Meta Tags -->
-    <title>@yield('title', 'Global Graphic Giant - A Complete IT Solution')</title>
-    <meta name="description" content="@yield('meta_description', 'Global Graphic Giant is a premier IT solutions company offering custom web development, mobile app development, UI/UX design, eCommerce, and 3D modeling services globally since 2006.')">
-    <meta name="keywords" content="@yield('meta_keywords', 'IT Solution, Web Development, eCommerce Development, Mobile App Development, UI/UX Design, 3D Modeling, Software Outsourcing Bangladesh, Global Graphic Giant')">
+    <title>@yield('title', 'Global Graphic Giant - Premium Graphic Design & Branding Agency')</title>
+    <meta name="description" content="@yield('meta_description', 'Global Graphic Giant is a premier graphic design agency offering complete branding, UI/UX design, custom illustration, and promotional design services globally since 2006.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'Graphic Design Agency, Brand Identity, UI/UX Design, Custom Illustration, Promotional Design, 3D Animation, Branding Services Bangladesh, Global Graphic Giant')">
     <meta name="author" content="Global Graphic Giant">
     <meta name="robots" content="@yield('meta_robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1')">
 
@@ -24,8 +24,8 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="@yield('og_type', 'website')">
     <meta property="og:url" content="@yield('og_url', url()->current())">
-    <meta property="og:title" content="@yield('og_title', View::getSection('title', 'Global Graphic Giant - A Complete IT Solution'))">
-    <meta property="og:description" content="@yield('og_description', View::getSection('meta_description', 'Global Graphic Giant is a premier IT solutions company offering custom web development, mobile app development, UI/UX design, eCommerce, and 3D modeling services globally since 2006.'))">
+    <meta property="og:title" content="@yield('og_title', View::getSection('title', 'Global Graphic Giant - Premium Graphic Design & Branding Agency'))">
+    <meta property="og:description" content="@yield('og_description', View::getSection('meta_description', 'Global Graphic Giant is a premier graphic design agency offering complete branding, UI/UX design, custom illustration, and promotional design services globally since 2006.'))">
     <meta property="og:image" content="@yield('og_image', asset('frontend/assets/img/logo.webp'))">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -35,8 +35,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@globalgraphicgiant">
     <meta name="twitter:url" content="@yield('twitter_url', url()->current())">
-    <meta name="twitter:title" content="@yield('twitter_title', View::getSection('title', 'Global Graphic Giant - A Complete IT Solution'))">
-    <meta name="twitter:description" content="@yield('twitter_description', View::getSection('meta_description', 'Global Graphic Giant is a premier IT solutions company offering custom web development, mobile app development, UI/UX design, eCommerce, and 3D modeling services globally since 2006.'))">
+    <meta name="twitter:title" content="@yield('twitter_title', View::getSection('title', 'Global Graphic Giant - Premium Graphic Design & Branding Agency'))">
+    <meta name="twitter:description" content="@yield('twitter_description', View::getSection('meta_description', 'Global Graphic Giant is a premier graphic design agency offering complete branding, UI/UX design, custom illustration, and promotional design services globally since 2006.'))">
     <meta name="twitter:image" content="@yield('twitter_image', asset('frontend/assets/img/logo.webp'))">
 
     <!-- Structured Data / JSON-LD -->
@@ -134,13 +134,13 @@
         document.addEventListener('DOMContentLoaded', function () {
             // Define your sections and their corresponding titles
             const sectionTitles = {
-                'hero': 'Global Graphic Giant - A Complete IT Solution',
+                'hero': 'Global Graphic Giant - Premium Graphic Design & Branding Agency',
                 'about': 'About Us - Global Graphic Giant',
-                'skills': 'Our Expertise & Skills - Global Graphic Giant',
-                'resume': 'Milestones & Workflow - Global Graphic Giant',
-                'portfolio': 'Our Portfolio - Global Graphic Giant',
+                'skills': 'Our Expertise & Tools - Global Graphic Giant',
+                'resume': 'Milestones & Creative Workflow - Global Graphic Giant',
+                'portfolio': 'Our Creative Portfolio - Global Graphic Giant',
                 'testimonials': 'Client Testimonials - Global Graphic Giant',
-                'services': 'Our Services - Global Graphic Giant',
+                'services': 'Our Design Services - Global Graphic Giant',
                 'faq': 'Frequently Asked Questions - Global Graphic Giant',
                 'contact': 'Contact Us - Global Graphic Giant'
             };
