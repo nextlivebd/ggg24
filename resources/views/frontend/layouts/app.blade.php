@@ -26,7 +26,7 @@
     <meta property="og:url" content="@yield('og_url', url()->current())">
     <meta property="og:title" content="@yield('og_title', View::getSection('title', 'Global Graphic Giant - Premium Graphic Design & Branding Agency'))">
     <meta property="og:description" content="@yield('og_description', View::getSection('meta_description', 'Global Graphic Giant is a premier graphic design agency offering complete branding, UI/UX design, custom illustration, and promotional design services globally since 2006.'))">
-    <meta property="og:image" content="@yield('og_image', asset('frontend/assets/img/logo.webp'))">
+    <meta property="og:image" content="@yield('og_image', asset('frontend/assets/img/GGG.png'))">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Global Graphic Giant">
@@ -37,15 +37,15 @@
     <meta name="twitter:url" content="@yield('twitter_url', url()->current())">
     <meta name="twitter:title" content="@yield('twitter_title', View::getSection('title', 'Global Graphic Giant - Premium Graphic Design & Branding Agency'))">
     <meta name="twitter:description" content="@yield('twitter_description', View::getSection('meta_description', 'Global Graphic Giant is a premier graphic design agency offering complete branding, UI/UX design, custom illustration, and promotional design services globally since 2006.'))">
-    <meta name="twitter:image" content="@yield('twitter_image', asset('frontend/assets/img/logo.webp'))">
+    <meta name="twitter:image" content="@yield('twitter_image', asset('frontend/assets/img/GGG.png'))">
 
     <!-- Structured Data / JSON-LD -->
     @stack('schema')
 
     <!-- Favicons -->
-    <link href="{{ asset('frontend/assets/img/Logo GGG.png') }}" rel="icon">
+    <link href="{{ asset('frontend/assets/img/GGG.png') }}" rel="icon">
 
-    <link href="{{ asset('frontend/assets/img/Logo GGG.png') }}"
+    <link href="{{ asset('frontend/assets/img/GGG.png') }}"
         rel="apple-touch-icon">
 
     <!-- Fonts -->
