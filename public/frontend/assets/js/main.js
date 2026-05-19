@@ -220,3 +220,26 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+/** Before/After Slider Component Initialization */
+document.addEventListener('DOMContentLoaded', () => {
+  const baSliders = document.querySelectorAll('.ba-slider-container');
+  baSliders.forEach(container => {
+    const range = container.querySelector('.ba-slider-range');
+    const beforeImage = container.querySelector('.ba-image-before');
+    const sliderLine = container.querySelector('.ba-slider-line');
+
+    const updateSlider = (value) => {
+      beforeImage.style.clipPath = `polygon(0 0, ${value}% 0, ${value}% 100%, 0 100%)`;
+      sliderLine.style.left = `${value}%`;
+    };
+
+    range.addEventListener('input', (e) => {
+      updateSlider(e.target.value);
+    });
+
+    // Initialize to default value (50%)
+    if (range) {
+      updateSlider(range.value);
+    }
+  });
+});

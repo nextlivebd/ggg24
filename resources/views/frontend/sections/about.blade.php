@@ -43,7 +43,7 @@
                   <div class="col-6">
                     <div class="info-item">
                       <span class="label">Clients</span>
-                      <span class="value">5000+ Happy Clients</span>
+                      <span class="value">500+ Happy Clients</span>
                     </div>
                   </div>
 

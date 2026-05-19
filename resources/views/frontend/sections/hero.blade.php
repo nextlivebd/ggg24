@@ -17,7 +17,7 @@
                 <span class="stat-label">Years Experience</span>
               </div>
               <div class="stat-item">
-                <span class="stat-number"><span class="counter" data-target="5000">0</span>+</span>
+                <span class="stat-number"><span class="counter" data-target="500">0</span>+</span>
                 <span class="stat-label">Happy Clients</span>
               </div>
               <div class="stat-item">
