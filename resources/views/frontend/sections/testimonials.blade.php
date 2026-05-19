@@ -44,7 +44,7 @@
                       You can always be assured the artwork produced by Global Graphic Giant is top quality on all levels. Always a pleasure working with them. They have transformed our brand identity completely.
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="{{ asset('frontend/assets/img/person/person-m-7.webp') }}" class="profile-img" alt="">
+                      <!-- <img src="{{ asset('frontend/assets/img/person/person-m-7.webp') }}" class="profile-img" alt=""> -->
                       <div class="profile-info">
                         <h3>Eddle Cipolla</h3>
                         <span>Account Director at St. Joseph Communications, Canada</span>
@@ -53,7 +53,7 @@
                   </div>
                   <div class="col-lg-4 d-none d-lg-block">
                     <div class="featured-img-wrapper">
-                      <img src="{{ asset('frontend/assets/img/person/person-m-7.webp') }}" class="featured-img" alt="">
+                      <!-- <img src="{{ asset('frontend/assets/img/person/person-m-7.webp') }}" class="featured-img" alt=""> -->
                     </div>
                   </div>
                 </div>
@@ -72,7 +72,7 @@
                       They work fast, good and for a fair price. They are not the cheapest but, you can’t get better quality cheaper. Quality and price go hand in hand. Their creative vision is unmatched in the industry.
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="{{ asset('frontend/assets/img/person/person-f-8.webp') }}" class="profile-img" alt="">
+                      <!-- <img src="{{ asset('frontend/assets/img/person/person-f-8.webp') }}" class="profile-img" alt=""> -->
                       <div class="profile-info">
                         <h3>Chris Mikkelsen</h3>
                         <span>Production Chief at enVision, Denmark</span>
@@ -81,7 +81,7 @@
                   </div>
                   <div class="col-lg-4 d-none d-lg-block">
                     <div class="featured-img-wrapper">
-                      <img src="{{ asset('frontend/assets/img/person/person-f-8.webp') }}" class="featured-img" alt="">
+                      <!-- <img src="{{ asset('frontend/assets/img/person/person-f-8.webp') }}" class="featured-img" alt=""> -->
                     </div>
                   </div>
                 </div>
@@ -102,7 +102,7 @@
                       The workflow was transparent, their designers were highly communicative, and the project was completed right on schedule. They have proven themselves as a top-tier creative service provider.
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="{{ asset('frontend/assets/img/person/person-m-9.webp') }}" class="profile-img" alt="">
+                      <!-- <img src="{{ asset('frontend/assets/img/person/person-m-9.webp') }}" class="profile-img" alt=""> -->
                       <div class="profile-info">
                         <h3>Matt Brandon</h3>
                         <span>CEO, TechStartup Inc.</span>
@@ -111,7 +111,7 @@
                   </div>
                   <div class="col-lg-4 d-none d-lg-block">
                     <div class="featured-img-wrapper">
-                      <img src="{{ asset('frontend/assets/img/person/person-m-9.webp') }}" class="featured-img" alt="">
+                      <!-- <img src="{{ asset('frontend/assets/img/person/person-m-9.webp') }}" class="featured-img" alt=""> -->
                     </div>
                   </div>
                 </div>

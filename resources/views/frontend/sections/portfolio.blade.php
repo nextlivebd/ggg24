@@ -71,6 +71,9 @@
               <div class="portfolio-card ba-card">
                 
                 <div class="ba-slider-container">
+                  <!-- Invisible image to set aspect ratio dynamically -->
+                  <img src="{{ asset('frontend/assets/img/Portfolio/'.$item['dir'].'/'.$item['after']) }}" alt="" style="width: 100%; height: auto; visibility: hidden; display: block;">
+                  
                   <!-- After Image (Background) -->
                   <div class="ba-image ba-image-after" style="background-image: url('{{ asset('frontend/assets/img/Portfolio/'.$item['dir'].'/'.$item['after']) }}')">
                     <span class="ba-label ba-label-after">After</span>

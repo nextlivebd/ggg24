@@ -6,9 +6,9 @@
     </div>
     <div class="social-links d-flex justify-content-center">
       <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
-      <a href="https://www.facebook.com/profile.php?id=61589797601164"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61589797601164" target="_blank"><i class="bi bi-facebook"></i></a>
       <!-- <a href=""><i class="bi bi-instagram"></i></a> -->
-      <a href="https://www.linkedin.com/company/global-graphic-giant"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.linkedin.com/company/global-graphic-giant" target="_blank"><i class="bi bi-linkedin"></i></a>
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->

@@ -25,33 +25,33 @@
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="service-item">
-                  <i class="bi bi-palette icon"></i>
-                  <h3><a href="service-details.html">Graphic Design</a></h3>
-                  <p>When it comes to graphic design, GGG can tackle anything. Our popular services include logos, posters, billboards, and letterhead.</p>
+                  <i class="bi bi-image icon"></i>
+                  <h3><a href="#portfolio">Image Editing</a></h3>
+                  <p>Professional photo retouching, background removal, and complex image manipulation services to make your visuals stand out.</p>
                 </div>
               </div><!-- End Service Item -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="service-item">
-                  <i class="bi bi-award icon"></i>
-                  <h3><a href="service-details.html">Branding</a></h3>
-                  <p>We build your brand from scratch or give your existing brand a facelift, ensuring a consistent look from business cards to websites.</p>
+                  <i class="bi bi-palette icon"></i>
+                  <h3><a href="service-details.html">Graphic Design</a></h3>
+                  <p>When it comes to graphic design, GGG can tackle anything. Our popular services include logos, posters, billboards, and branding.</p>
                 </div>
               </div><!-- End Service Item -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="service-item">
-                  <i class="bi bi-megaphone icon"></i>
-                  <h3><a href="service-details.html">Promotional Design</a></h3>
-                  <p>Get noticed everywhere with head-turning design. You’d be amazed by the attention a brochure or rack card can attract when done right.</p>
+                  <i class="bi bi-box icon"></i>
+                  <h3><a href="service-details.html">3D Graphics</a></h3>
+                  <p>Bring your ideas to life with high-quality 3D modeling, rendering, and texturing for products, architecture, and more.</p>
                 </div>
               </div><!-- End Service Item -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="service-item">
-                  <i class="bi bi-graph-up-arrow icon"></i>
-                  <h3><a href="service-details.html">Creative Strategy</a></h3>
-                  <p>We believe in research-based recommendations and exceptional creative work to ensure your visual campaigns generate real demand.</p>
+                  <i class="bi bi-globe icon"></i>
+                  <h3><a href="service-details.html">Web service</a></h3>
+                  <p>Custom web design and development services that provide exceptional user experiences and drive digital growth.</p>
                 </div>
               </div><!-- End Service Item -->
 

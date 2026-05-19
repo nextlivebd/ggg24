@@ -9,7 +9,7 @@
             <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
           </svg>
         </div>
-        <p>Our creative experts utilize the most advanced and scalable design tools to ensure top-notch deliverables.</p>
+        <p>Our creative experts utilize the most advanced and scalable design tools to ensure top notch deliverables.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">

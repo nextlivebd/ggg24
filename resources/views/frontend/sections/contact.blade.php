@@ -38,7 +38,9 @@
             <div class="contact-form card" data-aos="fade-up" data-aos-delay="300">
               <div class="card-body p-4 p-lg-5">
 
-                <form action="forms/contact.php" method="post" class="php-email-form">
+                <form action="{{ route('frontend.contact.submit') }}" method="post" class="php-email-form">
+                  @csrf
+                  <input type="text" name="_honey" style="display:none">
                   <div class="row gy-4">
 
                     <div class="col-12">

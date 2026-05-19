@@ -2169,7 +2169,6 @@ section,
 .ba-slider-container {
   position: relative;
   width: 100%;
-  aspect-ratio: 16/10;
   overflow: hidden;
   background-color: #222;
   cursor: ew-resize;
