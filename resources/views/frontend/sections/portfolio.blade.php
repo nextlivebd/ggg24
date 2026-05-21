@@ -67,8 +67,8 @@
           <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
 
             @foreach($portfolioItems as $item)
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item {{ $item['cat'] }}">
-              <div class="portfolio-card ba-card">
+            <div class="col-lg-6 col-md-6 col-sm-12 portfolio-item isotope-item {{ $item['cat'] }}">
+              <div class="portfolio-card ba-card mx-auto" style="width: 90%;">
                 
                 <div class="ba-slider-container">
                   <!-- Invisible image to set aspect ratio dynamically -->
@@ -95,9 +95,9 @@
                   </div>
                 </div>
 
-                <div class="portfolio-content">
-                  <span class="category">{{ $item['title'] }}</span>
-                  <h3>Hover or drag the slider</h3>
+                <div class="portfolio-content text-center mt-3">
+                  <span class="category d-block mb-1">{{ $item['title'] }}</span>
+                  <h3 style="font-size: 1rem; color: #666;">Hover or drag the slider</h3>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->

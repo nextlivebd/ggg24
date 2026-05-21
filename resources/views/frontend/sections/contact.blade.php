@@ -26,7 +26,7 @@
                   <span>Ikramul Vila, 827/1, East Shewrapara [2nd Floor], Kafrul, Mirpur, Dhaka- 1216, Bangladesh.</span>
                 </div>
 
-                <a href="https://maps.app.goo.gl/BYXuBeqT4CJ4H6LG6" target="_blank" class="map-link d-inline-flex align-items-center">
+                <a href="https://maps.app.goo.gl/Usmhj6ohJFCMwH8n9?g_st=iw" target="_blank" class="map-link d-inline-flex align-items-center">
                   Open Map
                   <i class="bi bi-arrow-right ms-2"></i>
                 </a>
