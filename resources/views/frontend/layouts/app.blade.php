@@ -70,7 +70,7 @@
         rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="{{ asset('frontend/assets/css/main.css') }}?v=1.1"
+    <link href="{{ asset('frontend/assets/css/main.css') }}?v=1.2"
         rel="stylesheet">
 
     @stack('styles')
@@ -80,7 +80,7 @@
 <body class="index-page">
 
     <!-- Preloader -->
-    <div id="preloader">
+    <div id="preloader" style="z-index: 9999999;">
       <div class="loader"></div>
     </div>
     <!-- Scroll Progress Bar -->
@@ -128,7 +128,7 @@
     <script src="{{ asset('frontend/assets/vendor/swiper/swiper-bundle.min.js') }}" defer></script>
 
     <!-- Main JS File -->
-    <script src="{{ asset('frontend/assets/js/main.js') }}?v=1.1" defer></script>
+    <script src="{{ asset('frontend/assets/js/main.js') }}?v=1.2" defer></script>
 
     @stack('scripts')
 

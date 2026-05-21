@@ -92,7 +92,7 @@
       mirror: false
     });
   }
-  window.addEventListener('load', aosInit);
+  document.addEventListener('DOMContentLoaded', aosInit);
 
   /**
    * Animate the skills items on reveal
@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
  */
 const preloader = document.querySelector('#preloader');
 if (preloader) {
-  window.addEventListener('load', () => {
+  document.addEventListener('DOMContentLoaded', () => {
     preloader.classList.add('preloader-hidden');
     setTimeout(() => {
       preloader.remove();
