@@ -70,7 +70,7 @@
         rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="{{ asset('frontend/assets/css/main.css') }}"
+    <link href="{{ asset('frontend/assets/css/main.css') }}?v=1.1"
         rel="stylesheet">
 
     @stack('styles')
@@ -128,7 +128,7 @@
     <script src="{{ asset('frontend/assets/vendor/swiper/swiper-bundle.min.js') }}" defer></script>
 
     <!-- Main JS File -->
-    <script src="{{ asset('frontend/assets/js/main.js') }}" defer></script>
+    <script src="{{ asset('frontend/assets/js/main.js') }}?v=1.1" defer></script>
 
     @stack('scripts')
 
