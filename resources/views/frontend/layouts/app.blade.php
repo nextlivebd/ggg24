@@ -79,6 +79,10 @@
 
 <body class="index-page">
 
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
     <!-- Scroll Progress Bar -->
     <div id="scroll-progress"></div>
 
