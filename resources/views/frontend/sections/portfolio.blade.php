@@ -72,14 +72,16 @@
                 
                 <div class="ba-slider-container">
                   <!-- Invisible image to set aspect ratio dynamically -->
-                  <img src="{{ asset('frontend/assets/img/Portfolio/'.$item['dir'].'/'.$item['after']) }}" alt="" style="width: 100%; height: auto; visibility: hidden; display: block;">
+                  <img src="{{ asset('frontend/assets/img/Portfolio/'.$item['dir'].'/'.$item['after']) }}" alt="" style="width: 100%; height: auto; visibility: hidden; display: block;" loading="lazy">
                   
-                  <!-- After Image (Background) -->
-                  <div class="ba-image ba-image-after" style="background-image: url('{{ asset('frontend/assets/img/Portfolio/'.$item['dir'].'/'.$item['after']) }}')">
+                  <!-- After Image (Converted to lazy-load img) -->
+                  <div class="ba-image ba-image-after">
+                    <img src="{{ asset('frontend/assets/img/Portfolio/'.$item['dir'].'/'.$item['after']) }}" alt="After" loading="lazy" decoding="async" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1;">
                     <span class="ba-label ba-label-after">After</span>
                   </div>
-                  <!-- Before Image (Foreground with clip-path) -->
-                  <div class="ba-image ba-image-before" style="background-image: url('{{ asset('frontend/assets/img/Portfolio/'.$item['dir'].'/'.$item['before']) }}');">
+                  <!-- Before Image (Converted to lazy-load img with clip-path) -->
+                  <div class="ba-image ba-image-before">
+                    <img src="{{ asset('frontend/assets/img/Portfolio/'.$item['dir'].'/'.$item['before']) }}" alt="Before" loading="lazy" decoding="async" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1;">
                     <span class="ba-label ba-label-before">Before</span>
                   </div>
                   
