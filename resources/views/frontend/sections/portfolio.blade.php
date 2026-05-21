@@ -72,7 +72,7 @@
                 
                 <div class="ba-slider-container">
                   <!-- Invisible image to set aspect ratio dynamically -->
-                  <img src="{{ asset('frontend/assets/img/Portfolio/'.$item['dir'].'/'.$item['after']) }}" alt="" style="width: 100%; height: auto; visibility: hidden; display: block;" loading="lazy">
+                  <img src="{{ asset('frontend/assets/img/Portfolio/'.$item['dir'].'/'.$item['after']) }}" alt="" style="width: 100%; height: auto; visibility: hidden; display: block;">
                   
                   <!-- After Image (Converted to lazy-load img) -->
                   <div class="ba-image ba-image-after">
