@@ -93,6 +93,11 @@
     });
   }
   document.addEventListener('DOMContentLoaded', aosInit);
+  window.addEventListener('load', () => {
+    if (typeof AOS !== 'undefined') {
+      AOS.refresh();
+    }
+  });
 
   /**
    * Animate the skills items on reveal
@@ -149,6 +154,21 @@
       }, false);
     });
 
+  });
+
+  /**
+   * Handle Portfolio Jump Links from Navbar
+   */
+  document.querySelectorAll('.portfolio-jump').forEach(function(jumpLink) {
+    jumpLink.addEventListener('click', function(e) {
+      let filterValue = this.getAttribute('data-filter');
+      let filterLi = document.querySelector(`.portfolio-filters li[data-filter="${filterValue}"]`);
+      if (filterLi) {
+        setTimeout(() => {
+          filterLi.click();
+        }, 100);
+      }
+    });
   });
 
   /**
@@ -253,6 +273,9 @@ if (preloader) {
     preloader.classList.add('preloader-hidden');
     setTimeout(() => {
       preloader.remove();
+      if (typeof AOS !== 'undefined') {
+        AOS.refresh();
+      }
     }, 600);
   });
 }

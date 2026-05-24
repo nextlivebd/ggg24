@@ -35,7 +35,7 @@ class ContactController extends Controller
         $validatedData = $validator->validated();
 
         try {
-            Mail::to('contact@ggg24.services')->send(new ContactMessage($validatedData));
+            Mail::to('contact@ggg24.services')->queue(new ContactMessage($validatedData));
             
             if ($request->ajax()) {
                 return response('OK', 200);
