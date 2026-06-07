@@ -25,7 +25,7 @@
                   <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
                     <div class="timeline-left">
                       <h4 class="company">Global Graphic Giant</h4>
-                      <span class="period">2014 - Present</span>
+                      <!-- <span class="period">2014 - Present</span> -->
                     </div>
                     <div class="timeline-dot"></div>
                     <div class="timeline-right">
@@ -37,7 +37,7 @@
                   <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
                     <div class="timeline-left">
                       <h4 class="company">Creative Evolution</h4>
-                      <span class="period">2010 - 2014</span>
+                      <!-- <span class="period">2010 - 2014</span> -->
                     </div>
                     <div class="timeline-dot"></div>
                     <div class="timeline-right">
@@ -56,7 +56,7 @@
                   <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
                     <div class="timeline-left">
                       <h4 class="company">Inception</h4>
-                      <span class="period">2006</span>
+                      <!-- <span class="period">2006</span> -->
                     </div>
                     <div class="timeline-dot"></div>
                     <div class="timeline-right">
