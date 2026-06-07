@@ -50,3 +50,12 @@
     ExpiresByType text/html "access plus 0 seconds"
     ExpiresDefault "access plus 2 days"
 </IfModule>
+
+# ----------------------------------------------------------------------
+# ALLOW CORS FOR WEBFONTS AND ASSETS
+# ----------------------------------------------------------------------
+<IfModule mod_headers.c>
+    <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|css|js|png|jpe?g|gif|ico|svg|webp)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+</IfModule>
