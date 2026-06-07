@@ -20,7 +20,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        if (config('app.env') !== 'local') {
+        if (config('app.env') !== 'local' || str_contains(request()->getHost(), 'ggg24.services')) {
             URL::forceScheme('https');
         }
     }
