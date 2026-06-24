@@ -9,7 +9,7 @@
             <p class="lead">We Create Stunning Graphics & Visual Identities</p>
             <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
               <a href="#contact" class="btn btn-primary">Request a Quote</a>
-              <a href="#portfolio" class="btn btn-outline">View Details</a>
+              <a href="{{ route('frontend.portfolio') }}" class="btn btn-outline">View Details</a>
             </div>
             <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
               <div class="stat-item">

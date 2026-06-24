@@ -6,6 +6,7 @@ use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\ContactController;
 
 Route::get('/', [HomeController::class, 'index'])->name('frontend.index');
+Route::get('/portfolio', [HomeController::class, 'portfolio'])->name('frontend.portfolio');
 Route::post('/contact/submit', [ContactController::class, 'submit'])->name('frontend.contact.submit');
 
 // Route to clear cache for shared hosting/cPanel without SSH

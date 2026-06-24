@@ -8,40 +8,40 @@
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <li><a href="{{ route('frontend.index') }}#hero" class="active">Home</a></li>
+        <li><a href="{{ route('frontend.index') }}#about">About</a></li>
+        <li class="dropdown"><a href="{{ route('frontend.index') }}#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
-            <li class="dropdown"><a href="#portfolio"><span>Image Editing</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li class="dropdown"><a href="{{ route('frontend.portfolio') }}"><span>Image Editing</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-bg-removal">Background Removal</a></li>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-beauty">Beauty Retouch</a></li>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-clipping">Clipping Path</a></li>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-color-change">Color Change</a></li>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-color-correction">Color Correction</a></li>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-enhancement">Enhancement</a></li>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-high-end">High-end Retouch</a></li>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-manipulation">Image Manipulation</a></li>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-masking">Masking</a></li>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-neck">Neck Joint</a></li>
-                <li><a href="#portfolio" class="portfolio-jump" data-filter=".filter-restoration">Restoration</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-bg-removal']) }}" class="portfolio-jump" data-filter=".filter-bg-removal">Background Removal</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-beauty']) }}" class="portfolio-jump" data-filter=".filter-beauty">Beauty Retouch</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-clipping']) }}" class="portfolio-jump" data-filter=".filter-clipping">Clipping Path</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-color-change']) }}" class="portfolio-jump" data-filter=".filter-color-change">Color Change</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-color-correction']) }}" class="portfolio-jump" data-filter=".filter-color-correction">Color Correction</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-enhancement']) }}" class="portfolio-jump" data-filter=".filter-enhancement">Enhancement</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-high-end']) }}" class="portfolio-jump" data-filter=".filter-high-end">High-end Retouch</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-manipulation']) }}" class="portfolio-jump" data-filter=".filter-manipulation">Image Manipulation</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-masking']) }}" class="portfolio-jump" data-filter=".filter-masking">Masking</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-neck']) }}" class="portfolio-jump" data-filter=".filter-neck">Neck Joint</a></li>
+                <li><a href="{{ route('frontend.portfolio', ['filter' => 'filter-restoration']) }}" class="portfolio-jump" data-filter=".filter-restoration">Restoration</a></li>
               </ul>
             </li>
-            <li><a href="#services">Graphic Design</a></li>
-            <li><a href="#services">3D Graphics</a></li>
-            <li><a href="#services">Web service</a></li>
+            <li><a href="{{ route('frontend.index') }}#services">Graphic Design</a></li>
+            <li><a href="{{ route('frontend.index') }}#services">3D Graphics</a></li>
+            <li><a href="{{ route('frontend.index') }}#services">Web service</a></li>
           </ul>
         </li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="{{ route('frontend.portfolio') }}">Portfolio</a></li>
         <li class="dropdown"><a href="#"><span>Company</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
-            <li><a href="#resume">Our Workflow</a></li>
-            <li><a href="#skills">Tools & Skills</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#faq">FAQ</a></li>
+            <li><a href="{{ route('frontend.index') }}#resume">Our Workflow</a></li>
+            <li><a href="{{ route('frontend.index') }}#skills">Tools & Skills</a></li>
+            <li><a href="{{ route('frontend.index') }}#testimonials">Testimonials</a></li>
+            <li><a href="{{ route('frontend.index') }}#faq">FAQ</a></li>
           </ul>
         </li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="{{ route('frontend.index') }}#contact">Contact</a></li>
       </ul>
       <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
     </nav>

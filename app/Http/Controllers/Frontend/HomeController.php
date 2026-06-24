@@ -16,4 +16,12 @@ class HomeController extends Controller
             return view('frontend.index')->render();
         });
     }
+
+    public function portfolio()
+    {
+        // Cache the fully rendered HTML response for 24 hours (86400 seconds)
+        return Cache::remember('frontend.portfolio.html', 86400, function () {
+            return view('frontend.portfolio')->render();
+        });
+    }
 }

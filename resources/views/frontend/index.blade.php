@@ -66,10 +66,25 @@
   @include('frontend.sections.about')
   @include('frontend.sections.skills')
   @include('frontend.sections.resume')
-  @include('frontend.sections.portfolio')
   @include('frontend.sections.testimonials')
   @include('frontend.sections.services')
   @include('frontend.sections.faq')
   @include('frontend.sections.contact')
 
 @endsection
+
+@push('scripts')
+<script>
+  // Redirect legacy hash links for portfolio to the new portfolio page
+  if (window.location.hash === '#portfolio') {
+    window.location.href = "{{ route('frontend.portfolio') }}";
+  }
+  
+  // Also handle hash change dynamically if they try to navigate to #portfolio on page
+  window.addEventListener('hashchange', () => {
+    if (window.location.hash === '#portfolio') {
+      window.location.href = "{{ route('frontend.portfolio') }}";
+    }
+  });
+</script>
+@endpush

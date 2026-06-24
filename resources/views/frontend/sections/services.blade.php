@@ -26,7 +26,7 @@
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="service-item">
                   <i class="bi bi-image icon"></i>
-                  <h3><a href="#portfolio">Image Editing</a></h3>
+                  <h3><a href="{{ route('frontend.portfolio') }}">Image Editing</a></h3>
                   <p>Professional photo retouching, background removal, and complex image manipulation services to make your visuals stand out.</p>
                 </div>
               </div><!-- End Service Item -->
