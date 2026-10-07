@@ -69,7 +69,7 @@
                   <img src="{{ asset('frontend/assets/img/misc/signature-1.webp') }}" alt="" class="img-fluid">
                 </div>
                 <div class="signature-info">
-                  <h4>Umar Faruk</h4>
+                  <h4>Abahan Ehan</h4>
                   <p>Managing Director</p>
                 </div>
               </div>
